@@ -1,241 +1,273 @@
-/* General styles */
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #000;
+    background: #ffffff;
+}
+
+.fff-color {
+    background: #fff;
+}
+
 h1 {
+    font-size: 30px;
     margin-bottom: 20px;
+    color:  #fff;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #fff;
 }
 
 li {
     list-style: none;
+    display: inline-block;
 }
 
 a {
-    color: #343434;
     text-decoration: none;
 }
 
-/* Utilities  */
+/* Utilities */
 .box {
-    height: 20px;
-    background-color: lightblue;
-    margin-bottom: 10px;
-}
-
-/* MEDIA QUERY FINO A 767PX */
-@media screen and (max-width:767px) {
-    .big-container {
-        width: 767px;
-        max-width: 100%;
-    }
-    /* Header */
-    .nav-bar {
-        text-align: center;
-    }
-
-    .nav-bar img {
-        margin-top: 10px;
-    }
-
-    .ul-nav-bar {
-        display: none;
-    }
-
-    .img-header {
-        margin-bottom: 25px;
-    }
-
-    .text-jb-header {
-        text-align: center;
-    }
-
-    .text-jb-header h1 {
-        margin-top: 150px;
-        color: white;
-    }
-
-    .text-jb-header p {
-        margin-bottom: 20px;
-        color: white;
-    }
-
-    .text-jb-header img {
-        width: 150px;
-        margin-left: -25px;
-        margin-bottom: 10px;
-    }
-
-    /* Main */
-     /* Bike e Scooter */
-    .bike-scooter {
-        text-align: center;
-        background: #fafafa;
-        margin-bottom: 30px;
-    }
-
-    .background-bm {
-        background: #fafafa;
-    }
-
-    .bike-scooter h2 {
-        margin-bottom: 10px;
-    }
-
-    .bike-scooter h3 {
-        margin-bottom: 10px;
-    }
-
-    .bike-scooter a {
-        display: block;
-        color: #0a18ff;
-    }
-
-    .bike-scooter img {
-        width: 100%;
-    } 
-}
-
-/* MEDIA QUERY FINO A 991PX */
-@media screen and (min-width: 768px) {
-    .big-container {
-        width: 991px;
-        max-width: 100%;
-    }
-    /* Header */
-    .nav-bar img {
-        margin-left: 15px;
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
-
-    .nav-bar ul li {
-        font-size: 10px;
-        padding: 5px;
-        margin-top: 18px;
-        display: inline-block;
-    }
-
-     ul li .sec-nav-bar {
-        margin-right: -15px;
-    }
-
-    .img-header {
-        margin-bottom: 50px;
-    }
-
-
-    .text-jb-header {
-        text-align: center;
-    }
-
-    .text-jb-header h1 {
-        margin-top: 225px;
-        color: white;
-    }
-
-    .text-jb-header p {
-        margin-bottom: 25px;
-        color: white;
-    }
-
-    .text-jb-header img {
-        margin-bottom: 10px;
-    }
-
-    /* Main */
-     /* Bike e Scooter */
-    .bike-scooter {
-        text-align: center;
-        background: #fafafa;
-        margin-bottom: 30px;
-    }
-
-    .background-bm {
-        background: #fafafa;
-    }
-
-    .bike-scooter h2 {
-        margin-bottom: 10px;
-    }
-
-    .bike-scooter h3 {
-        margin-bottom: 10px;
-    }
-
-    .bike-scooter a {
-        display: block;
-        color: #0a18ff;
-    }
-
-    .bike-scooter img {
-        width: 100%;
-    } 
-}
-
-/* MEDIA QUERY DA 991PX IN POI */
-@media screen and (min-width: 992px) {
-    .big-container {
-        width: 1465px;
-        max-width: 100%;
-    }
-    /* header */
-    .img-header {
-        margin-bottom: 60px;
-    }
-
-    .text-jbheader {
-        text-align: center;
-    }
-
-    .text-jb-header h1 {
-        margin-top: 175px;
-        color: white;
-    }
-
-    .text-jb-header p {
-        margin-bottom: 25px;
-        color: white;
-    }
-
-    .text-jb-header img {
-        padding: 10px;
-    }
-    /* Main */
-    /* Bike e Scooter */
-    .bike-scooter {
-        text-align: center;
-        background: #fafafa;
-        margin-bottom: 30px;
-    }
-
-    .background-bm {
-        background: #fafafa;
-    }
-
-    .bike-scooter h2 {
-        margin-bottom: 10px;
-    }
-
-    .bike-scooter h3 {
-        margin-bottom: 10px;
-    }
-
-    .bike-scooter a {
-        display: block;
-        color: #0a18ff;
-    }
-
-    .bike-scooter img {
-        width: 100%;
-    } 
+    background: lightblue;
+    height: 100px;
+    margin-bottom: 20px;
 }
 
 /* HEADER */
-.img-header {
-    width: 1385px;
-    height: 600px;
-    max-width: 100%;
+/* Nav-bar */
+.nav-bar {
     background-image: url('../img/hero-bg.jpg');
+    height: 549px;
     background-size: cover;
-    background-position: left;
-    margin-bottom: 50px;
+    background-position: center;
+    margin-bottom: 30px;
 }
 
 
+/* MAIN */
+
+
+
+/* Uomo anziano scooter iphone */
+.iphone-scooter {
+    background-image: url('../img/helbiz-banner.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: left center;
+    margin-bottom: 30px;
+}
+
+/* Immagine scooter prato */
+.scooter-bg {
+    background-image: url('../img/scooter-bg.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: left center;
+    margin-bottom: 30px;
+}
+
+/* Social Banner */
+.social-img {
+    background-image: url('../img/social-banner.jpg');
+width: 50%;
+height: 400px;
+background-size: cover;
+background-color: #2e3c4a;
+background-position: center;
+margin-bottom: 30px;
+}
+
+
+/* FOOTER */
+/*  */
+
+
+/* MEDIA QUERY */
+
+/* MEDIA QUERY 0 --> 767 PX */
+@media screen and (max-width: 767px) {
+    /* HEADER */
+    /* Nav-bar */
+    .ul-nav-bar, 
+    .ul-nav-languages {
+        display: none;
+    }
+
+    .nav-bar {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .nav-bar img {
+        margin-top: 20px;
+        margin-bottom: 10px;
+     
+    }
+
+    .nav-bar h1 {
+        padding-top: 20px;
+    }
+
+    /* MAIN */
+    .top-scooter {
+        text-align: center;
+        margin-bottom: 30px;
+        background: #fafafa;
+    }
+
+    .top-scooter h2 {
+        margin-bottom: 20px;
+    }
+
+    .top-scooter h3 {
+        margin-bottom: 20px;
+    }
+
+    .top-scooter a {
+        color: #0007ff;
+        display: block;
+    }
+
+    .top-scooter img {
+        width: 350;
+        height: 550px;
+        margin-bottom: 20px;
+    }
+
+    /* Top-bike */
+    .top-bike {
+        text-align: center;
+        margin-bottom: 30px;
+        background: #fafafa;
+    }
+
+    .top-bike h2 {
+        margin-bottom: 20px;
+    }
+
+    .top-bike h3 {
+        margin-bottom: 20px;
+    }
+
+    .top-bike a {
+        color: #0007ff;
+        display: block;
+    }
+
+    .top-bike img {
+        width: 350px;
+        height: 550px;
+    }
+
+    /* Uomo anziano scooter iphone */
+    .iphone-scooter {
+    background-image: url('../img/helbiz-banner.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: left center;
+    margin-bottom: 30px;
+    }
+
+    /* Iphone e scooter */
+    .iphone-none {
+        display: none;
+    }
+
+    .iphone-scooter {
+        text-align: center;
+        margin-top: -200px;
+        margin-bottom: 120px;
+    }
+    
+    .iphone-scooter div {
+        margin-top: 200px;
+    }
+
+    /* Immagine scooter prato */
+    .scooter-bg {
+        text-align: center;
+    }
+
+    .scooter-bg h2 {
+        font-size: 28px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    .scooter-bg a {
+        color: #fff;
+    }
+
+    /* Get app */
+    .get-app {
+        text-align: center;
+        background: #354756
+    }
+
+    .get-app h2 {
+        font-weight: 400;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+
+    .get-app h3 {
+        font-weight: 400;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+
+    .get-app a {
+        color: #fff;
+        padding: 10px;
+        display: inline-block;
+    }
+
+    .get-app img {
+        width: 370px;
+        height: 250px;
+        margin-bottom: -10px;
+    }
+
+    /* Find Us around */
+    .find-us {
+        text-align: center;
+        margin-bottom: 30px;
+        background: #fafafa;
+    }
+
+    .find-us h2 {
+        margin-bottom: 20px;
+    }
+
+    .find-us h3 {
+        margin-bottom: 20px;
+    }
+
+    .find-us a {
+        color: #0007ff;
+        display: block;
+    }
+
+    .find-us img {
+        width: 360px;
+        height: 550px;
+    }
+
+
+
+    /* Social banner */
+    .social-img {
+    background-image: url('../img/social-banner.jpg');
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-color: #2e3c4a;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+}

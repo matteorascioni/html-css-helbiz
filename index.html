@@ -4,110 +4,221 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/framework-12bool.css">
 </head>
 
 <body>
     
-    <div class="big-container">
     <!-- HEADER -->
     <header>
-        <!-- Nav bar -->
-        <section class=" nav-bar container">
-            <!-- Logo nav-bar alto sinistra -->
-            <div class="col-xs-12 col-md-3 col-lg-5">
-                <img src="./img/helbiz-logo.svg" alt="">
-            </div>
-            <!-- Li nav-bar alto destra -->
-            <div class="col-md-9 col-lg-7">
-                <ul class="ul-nav-bar">
-                    <li>
-                        <a href="#">HELBIZGO</a>
-                    </li>
-                    <li>
-                        <a href="#">HELBIZCAR</a>
-                    </li>
-                    <li>
-                        <a href="#">HELBIZAIR</a>
-                    </li>
-                    <li>
-                        <a href="#">ABOUT</a>
-                    </li>
-                    <li>
-                        <a href="#">CITIES</a>
-                    </li>
-                    <li>
-                        <a href="#">CARRERS</a>
-                    </li>
-                    <li>
-                        <a href="#">SHOP</a>
-                    </li>
-
-                    <li>
-                        <a href="#">ENG</a>
-                    </li>
-                    <li>
-                        <span>|</span>
-                    </li>
-                    <li>
-                        <a href="#">ITA</a>
-                    </li>
-                    <li>
-                        <span>|</span>
-                    </li>
-                    <li>
-                        <a href="#">ES</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Jumbtron header -->
-        <section class="img-header">
+        <!-- NAV_BAR -->
+       <section class="nav-bar">
+           <!-- Logo -->
            <div class="container">
-                <div class="col-xs-4 offset-xs-4 col-md-4 offset-md-4 col-lg-4 offset-lg-4">
-                    <div class="text-jb-header">
-                        <h1>Shared mobility of tomorrow</h1>
-                        <p>Bringing the future of shared mobility to the streets of the world</p>
-                        <img class="apple-btn" src="./img/app-store-badge.svg" alt="">
-                        <img src="./img/google-play-badge.svg" alt="">
-                    </div> 
+               <div class="fff-color col-xs-12 col-md-3 cool-lg-3">
+                   <img src="./img/helbiz-logo.svg" alt="">
+               </div>
+
+               <!-- Nav-bar -->
+                <div class="fff-color col-md-6 .col-6">
+                    <ul class="ul-nav-bar">
+                        <li>
+                            <a href="#">HELBIZGO</a>
+                        </li>
+                        <li>
+                            <a href="#">HELBIZCAR</a>
+                        </li>
+                        <li>
+                            <a href="#">HELBIZAIR</a>
+                        </li>
+                        <li>
+                            <a href="#">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="#">CITIES</a>
+                        </li>
+                        <li>
+                            <a href="#">CARRERS</a>
+                        </li>
+                        <li>
+                            <a href="#">SHOP</a>
+                        </li>                   
+                    </ul>
+                </div>
+
+                <!-- Nav-bar languages -->
+                <div class="fff-color col-md-3 col-lg-3s">
+                    <ul class="ul-nav-languages">
+                        <li>
+                            <a href="#">ENG</a>
+                        </li>
+                        <span>|</span>
+                        <li>
+                            <a href="#">ITA</a>
+                        </li>
+                        <span>|</span>
+                        <li>
+                            <a href="#">ES</a>
+                        </li>
+                    </ul>
                 </div>
            </div>
-        </section>
+
+           <!-- H1 immagine header -->
+           <div class="container">
+                <h1>Shared Mobility of Tomorrow</h1>
+                <p>Bringing the future of shared mobility to the streets of the world   </p>
+                <a href="#">
+                    <img src="./img/app-store-badge.svg" alt="">
+                </a>
+                 <a href="#">
+                     <img src="./img/google-play-badge.svg" alt="">
+                </a>           
+           </div>
+       </section>
     </header>
 
     <!-- MAIN -->
     <main>
         <!-- Monopattino e bici inizio main -->
         <section>
-            <div class="container background-bm col-md-4 offset-md-1 col-lg-4 offset-lg-1">
-                <div class="bike-scooter">
-                    <div class="col-xs-10 offset-xs-1">
-                        <h2>HelbizGO</h2>
-                        <h3>Next generation of electric city bikes.</h3>
-                        <a href="">Learn more ></a>
-                        <img src="./img/go-segway.jpg" alt="">
-                    </div>
+            <div class="container">
+                <div class="top-scooter col-xs-12 col-md-6 col-lg-6 ">
+                    <h2>HelbizGO</h2>
+                    <h3>Next generation of electric city bikes.</h3>
+                    <a href="#">Learn More</a>
+                    <img src="./img/go-segway.jpg" alt="">
                 </div>
-            </div>
-            <div class="container background-bm col-md-4 offset-md-2 col-lg-4">
-                <div class="bike-scooter">
-                    <div class="col-xs-10 offset-xs-1">
-                        <h2>HelbizBike</h2>
-                        <h3>Seamless E-scooter sharing globally.</h3>
-                        <a href="">Learn more ></a>
-                        <img src="./img/bike.jpg" alt="">
-                    </div>
+                <div class="top-bike col-xs-12 col-md-6 col-lg-6 ">
+                     <h2>HelbizGO</h2>
+                    <h3>Next generation of electric city bikes.</h3>
+                    <a href="#">Learn More</a> 
+                    <img src="./img/bike.jpg" alt="">
                 </div>
             </div>
         </section>
-        
+
+        <!-- Iphone e scooter -->
+        <section class="iphone-scooter">
+            <div class="container">
+                <div class="col-xs-6 col-md-6 col-lg-4">
+                    <div>
+                        <h2>How does it Helbiz work?</h2>
+                    </div>
+                </div>
+
+                <!-- Iphone -->
+                <div class=" iphone-none col-lg-4">
+                    <div class="box">iphone</div>
+                </div>
+
+                <div class="col-xs-6 col-md-6 col-lg-4">
+                    <div>
+                        <h5>Step 1 <br>
+                            Leave curbside when finished
+                        </h5>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- immagine scooter prato -->
+        <section class="scooter-bg">
+            <div class="container">
+                <div>
+                    <h2>Smart mobility<br>
+                        on two weels
+                    </h2>
+                    <p>A cleaner convenient<br>
+                       alternative to get around your city
+                    </p>
+                    <a href="#">Learn More ></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Get the app -->
+        <section>
+            <div class="container">
+                <div class="get-app col-xs-12 col-md-6 col-lg-6 ">
+                    <h2>Get The App</h2>
+                    <h3>Download the app and start riding today</h3>
+                    <a href="#">IOS ></a>
+                    <a href="">Android ></a>
+                    <img src="./img/helbiz-app.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Find us around -->
+        <section>
+            <div class="container">            
+                <div class="find-us col-xs-12 col-md-6 col-lg-6 ">
+                    <div>
+                    <h2>Find us around</h2>
+                    <h3>find us around the globe</h3>
+                    <a href="#">Our city</a> 
+                     </div>  
+                    <img src="./img/cities.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Image -->
+        <section class="social-img">
+            <div class="container"></div>
+        </section>
     </main>
 
     <!-- FOOTER -->
-    <footer></footer>
-</div>
+    <footer>
+        <!-- Logo Footer -->
+        <section>
+            <div class="container">
+                <div class="col-xs-12 col-md-3 col-lg-3">
+                    <div class="box">logo</div>
+                </div>
+        <!-- Tre liste del footer -->
+                <div class="col-xs-4 col-md-3 col-lg-3">
+                    <div class="box">product</div>
+                </div>
+                <div class="col-xs-4 col-md-3 col-lg-3">
+                    <div class="box">info</div>
+                </div>
+                <div class="col-xs-4 col-md-3 col-lg-3">
+                    <div class="box">elbiz</div>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- Icone, Termini e condizioni -->
+        <section>
+            <div class="container">
+                <div class="col-xs-6 col-md-3 col-lg-3">
+                    <div class="box">icone</div>
+                </div>
+                <div class="col-xs-6 col-md-3 col-lg-3">
+                    <div class="box">terms&</div>
+                </div>
+                <div class="col-xs-6 col-md-3 col-lg-3">
+                    <div class="box">press</div>
+                </div>
+                <div class="col-xs-6 col-md-3 col-lg-3">
+                    <div class="box">©</div>
+                </div>  
+                <div class="col-xs-6 col-md-6 col-lg-6 offset-lg-0">
+                    <div class="box">appstore btn</div>
+                </div>
+                <div class="col-xs-6 col-md-6 col-lg-6">
+                    <div class="box">google btn</div>
+                </div>
+            </div>
+        </section>
+
+
+    </footer>
 </body>
 </html>
